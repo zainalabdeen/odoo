@@ -2,6 +2,10 @@ from odoo import http
 from odoo.http import request
 
 
+
+
+
+
 class OnboardingController(http.Controller):
 
     @http.route('/account/account_invoice_onboarding', auth='user', type='json')
